@@ -1,0 +1,98 @@
+{
+  "model": "xai/grok-imagine-video",
+  "image_ref": "https://cdn.shopify.com/s/files/1/1037/0849/2121/files/1781020525306-generated-label-image-0.jpg?v=1781098894",
+  "image_mode": "upload",
+  "image_usage": "all",
+  "qc_enabled": true,
+  "strict_qc": false,
+  "uploaded_image_path": "/Users/joebains/UGC_creator/output/_assets/source_image.jpg",
+  "output_dir": "/Users/joebains/UGC_creator/generated_clips/nmn-and-nad-the-science-behind-cellular-renewal-audiopace",
+  "clips": [
+    {
+      "clip_index": 1,
+      "role": "hook",
+      "use_image_reference": false,
+      "file": "/Users/joebains/UGC_creator/generated_clips/nmn-and-nad-the-science-behind-cellular-renewal-audiopace/clip_01_hook.mp4",
+      "input": {
+        "prompt": "Vertical 9:16 cinematic UGC realism in a softly lit modern kitchen at dawn. Keep the same woman visible the entire clip: Lauren, 44, fit but natural, chestnut shoulder-length hair, minimal makeup, cream knit long-sleeve top and dark leggings. Start with person-only framing for the first 2 seconds: medium close-up, handheld but stable, Lauren leaning on the kitchen counter with a subtle tired exhale, rubbing one temple and looking toward the window, no product visible yet. Then a slow push-in as she pours water, pauses, and stretches her shoulders, conveying that quiet midlife energy dip rather than dramatic exhaustion. Natural window light, muted beige and oak tones, shallow depth of field, authentic home ambience, premium but realistic. One dominant camera move: slow forward push. No on-screen text. Keep the same named on-camera persona continuity across person-led clips. Start with person-only framing for the first 1.8 to 2.0 seconds. Realism directive: documentary-style photorealism; natural skin texture and pores, accurate facial anatomy and hand/finger proportions, physically plausible body motion and eye gaze, true-to-life fabric and hair behavior, realistic exposure and shadow roll-off, handheld camera micro-movement, and subtle real-world imperfections without beauty-filter look.\nAUDIO: Calm trustworthy female narration, warm and measured: \"I didn’t crash overnight. My energy just felt less consistent...\" Soft ambient piano with light modern wellness texture under it. Subtle kitchen ambience: distant fridge hum, glass set on counter, quiet morning room tone. Gentle exhale and fabric movement audible. No hype, no rush, intimate close-mic delivery synced to her thoughtful expression.",
+        "duration": 7,
+        "aspect_ratio": "9:16",
+        "resolution": "480p"
+      },
+      "quality_check": {
+        "tool": "opencv",
+        "status": "ok",
+        "passed": true,
+        "issues": [],
+        "metrics": {
+          "file_size_bytes": 2391673,
+          "frame_count": 169,
+          "sampled_frames": 43,
+          "fps": 24.0,
+          "duration_seconds": 7.042,
+          "avg_laplacian_variance": 230.688,
+          "avg_frame_diff": 12.251,
+          "freeze_ratio": 0.0
+        }
+      }
+    },
+    {
+      "clip_index": 2,
+      "role": "solution",
+      "use_image_reference": true,
+      "file": "/Users/joebains/UGC_creator/generated_clips/nmn-and-nad-the-science-behind-cellular-renewal-audiopace/clip_02_solution.mp4",
+      "input": {
+        "prompt": "Vertical 9:16, same Lauren, same home and continuity, now in the same outfit with coherent morning progression. Start with person-only framing for the first 2 seconds: medium shot of Lauren at the kitchen island, upright and more focused, holding a glass of water before the product enters frame. Then the camera performs one smooth side-to-front arc as she reaches for a clearly visible Bioluxe Lab NMN bottle, opens it naturally, takes one capsule with water, and sets the bottle beside a simple breakfast with eggs, avocado toast, and berries. End with Lauren stepping onto a sunlit balcony or near a bright window for a small stretch and a faint relieved smile, suggesting an early believable shift in routine and mindset. Clean premium lighting, crisp bottle visibility, realistic hand interactions, minimal artifacts, polished lifestyle UGC realism. No on-screen text. Keep the same named on-camera persona continuity across person-led clips. Start with person-only framing for the first 1.8 to 2.0 seconds. Realism directive: documentary-style photorealism; natural skin texture and pores, accurate facial anatomy and hand/finger proportions, physically plausible body motion and eye gaze, true-to-life fabric and hair behavior, realistic exposure and shadow roll-off, handheld camera micro-movement, and subtle real-world imperfections without beauty-filter look.\nAUDIO: Calm trustworthy expert-style narration: \"Now I keep it simple: one 500 milligram NMN capsule in the morning.\" Soft piano continues, adding a subtle uplifting pulse. SFX: bottle cap twist, capsule shake, sip of water, plate set down lightly. Ambient morning apartment tone with faint birds near the window. Optional quiet on-camera line from Lauren, natural and brief: \"Done.\" Delivery should feel grounded and credible, not salesy.",
+        "duration": 10,
+        "image": "uploaded_file:/Users/joebains/UGC_creator/output/_assets/source_image.jpg",
+        "aspect_ratio": "9:16",
+        "resolution": "480p"
+      },
+      "quality_check": {
+        "tool": "opencv",
+        "status": "ok",
+        "passed": true,
+        "issues": [],
+        "metrics": {
+          "file_size_bytes": 3379438,
+          "frame_count": 241,
+          "sampled_frames": 41,
+          "fps": 24.0,
+          "duration_seconds": 10.042,
+          "avg_laplacian_variance": 195.137,
+          "avg_frame_diff": 26.771,
+          "freeze_ratio": 0.0
+        }
+      }
+    },
+    {
+      "clip_index": 3,
+      "role": "product_hero",
+      "use_image_reference": true,
+      "file": "/Users/joebains/UGC_creator/generated_clips/nmn-and-nad-the-science-behind-cellular-renewal-audiopace/clip_03_product-hero.mp4",
+      "input": {
+        "prompt": "Vertical 9:16 premium commercial product-only close-up. No person on camera. Place the Bioluxe Lab NMN bottle on a refined stone countertop near soft morning light, with a glass of water and a few capsules arranged neatly beside it. Use a controlled slow slider move from left to right while the bottle remains the sharp focal point. Add elegant specular highlights on the label and cap, with a creamy blurred background suggesting a sophisticated wellness home environment. Include a subtle secondary angle reveal as light passes across the bottle, emphasizing purity, clarity, and premium finish. Cinematic macro detail, clean composition, high-end supplement commercial look, natural color, minimal clutter, deterministic framing for strong product identity continuity. No on-screen text. Product-only shot. No people, faces, or body parts visible. Realism directive: true-to-life commercial macro realism; physically accurate bottle geometry and label proportions, natural reflections/refractions and contact shadows, realistic material texture and micro-contrast, stable focus breathing and lens behavior, plausible camera motion, and authentic countertop/environment lighting with no CGI-like plastic sheen.\nAUDIO: Calm trustworthy narration, concise: \"High purity NMN from Bioluxe Lab designed to support cellular.\" Music resolves into a confident, clean finish with soft piano and airy pad. SFX: faint capsule rattle, gentle glass clink, subtle room tone. No other voices.",
+        "duration": 6,
+        "image": "uploaded_file:/Users/joebains/UGC_creator/output/_assets/source_image.jpg",
+        "aspect_ratio": "9:16",
+        "resolution": "480p"
+      },
+      "quality_check": {
+        "tool": "opencv",
+        "status": "ok",
+        "passed": true,
+        "issues": [],
+        "metrics": {
+          "file_size_bytes": 1493525,
+          "frame_count": 145,
+          "sampled_frames": 49,
+          "fps": 24.0,
+          "duration_seconds": 6.042,
+          "avg_laplacian_variance": 843.008,
+          "avg_frame_diff": 11.467,
+          "freeze_ratio": 0.0
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "schema_version": "4.2",
+  "generated_by": "generate_ugc_script.py",
+  "source": {
+    "blog_url": "https://bioluxelab.com/blogs/inside-the-products/nmn-and-nad-the-science-behind-cellular-renewal",
+    "blog_title": "NMN and NAD+: The Science Behind Cellular Renewal"
+  },
+  "structure_source": "structure.md",
+  "ad": {
+    "platform": "tiktok_reels_shorts",
+    "aspect_ratio": "9:16",
+    "resolution": "480p",
+    "target_seconds": 30,
+    "total_clip_seconds": 26,
+    "style": "cinematic product b-roll, premium commercial, no talking face"
+  },
+  "brand": {
+    "name": "Bioluxe Lab",
+    "website": "https://bioluxelab.com",
+    "voice_persona": "calm, trustworthy wellness expert"
+  },
+  "story": {
+    "ideal_customer_profile": {
+      "person_name": "Daniel",
+      "age": 44,
+      "career": "senior product manager at a SaaS company",
+      "hobbies": [
+        "strength training",
+        "weekend hiking",
+        "meal prepping",
+        "podcast listening"
+      ],
+      "life_context": "Daniel juggles long desk hours, early gym sessions, and family responsibilities. He cares about staying sharp, keeping up his workout routine, and maintaining steady energy without turning to extreme wellness trends.",
+      "purchase_motivation": "He wants a simple, science-led daily supplement that supports cellular energy, recovery, and healthy aging, and he is specifically drawn to high-purity NMN with transparent testing."
+    },
+    "primary_problem": "A health-conscious middle-aged professional feels his energy, recovery, and day-to-day resilience are not what they used to be, and he wants a credible way to support healthy aging at the cellular level.",
+    "resolution_path": "Show Daniel noticing the subtle drag of midlife energy and recovery, then adopting a consistent morning NMN routine from Bioluxe Lab as part of a broader wellness lifestyle, leading to a believable sense of steadier vitality and confidence.",
+    "concept": "A premium UGC-style longevity routine film that turns the invisible NAD+ decline story into a relatable daily ritual anchored by Bioluxe Lab NMN.",
+    "call_to_action": "Shop now at bioluxelab.com"
+  },
+  "video_generation": {
+    "model": "xai/grok-imagine-video",
+    "image_ref": "https://cdn.shopify.com/s/files/1/1037/0849/2121/files/1781020525306-generated-label-image-0.jpg?v=1781098894",
+    "input_defaults": {
+      "aspect_ratio": "9:16",
+      "resolution": "480p"
+    },
+    "prompt_assembly": "final_prompt = video_prompt + '\\nAUDIO: ' + audio_prompt",
+    "clips": [
+      {
+        "clip_index": 1,
+        "role": "hook",
+        "duration_seconds": 10,
+        "use_image_reference": false,
+        "video_prompt": "Vertical 9:16 cinematic UGC realism. Same person for continuity: Daniel, 44, fit but not model-perfect, short dark hair with slight gray at the temples, light stubble, wearing a charcoal athletic tee in a softly lit modern kitchen at dawn. Start with person-only framing for the first 2 seconds: medium close-up, Daniel leaning on the counter, rubbing the back of his neck, exhaling like he slept fine but still feels flat. Then a slow handheld push-in as he fills a water glass, glances at his untouched gym bag, and rolls his shoulders. Natural morning window light, muted cool tones, premium but authentic home setting, shallow depth of field, subtle motion from handheld camera only. Keep the product off-screen. The visual beat is subtle low energy and slower recovery, not dramatic exhaustion. Keep the same named on-camera persona continuity across person-led clips. Start with person-only framing for the first 1.8 to 2.0 seconds.",
+        "audio_prompt": "AUDIO: Calm, trustworthy expert-style male narration, low and natural pace. Short on-camera dialogue under breath from Daniel: \"Why do I feel\" Narration: \"Around midlife your cellular NAD+ naturally declines That can show up as lower energy slower recovery and\" Soft minimal ambient music with warm synth and light piano. SFX: glass set on counter, quiet fabric rustle, soft inhale/exhale. Ambient audio: early morning kitchen room tone, distant fridge hum."
+      },
+      {
+        "clip_index": 2,
+        "role": "solution",
+        "duration_seconds": 10,
+        "use_image_reference": true,
+        "video_prompt": "Vertical 9:16, same Daniel, same morning and wardrobe continuity, now brighter natural light as the routine begins. Start with person-only framing for the first 2 seconds: close shot of Daniel standing upright at the kitchen island, looking more intentional and focused. Then one smooth lateral slide reveals a clean bottle of Bioluxe Lab NMN capsules on the counter beside a glass of water. Daniel picks up the bottle, opens it, takes one capsule, drinks water, then reaches for a simple breakfast with eggs and avocado. End with a believable improvement beat: later that morning he walks outside with relaxed posture and purposeful stride, gym bag over shoulder. Product label should remain readable and consistent. Lighting becomes warmer and more energized while staying realistic. Premium wellness UGC, practical use, no exaggerated transformation. Keep the same named on-camera persona continuity across person-led clips. Start with person-only framing for the first 1.8 to 2.0 seconds.",
+        "audio_prompt": "AUDIO: Calm, trustworthy expert narration synchronized to the actions. Narration: \"Daniel added one 500 milligram NMN capsule to his morning routine NMN is a direct precursor to NAD+ helping support cellular\" Soft uplifting music builds slightly with gentle percussion. SFX: bottle cap twist, capsule shake, sip of water, plate set down, apartment door open and close. Ambient audio: quiet kitchen, then subtle outdoor neighborhood air."
+      },
+      {
+        "clip_index": 3,
+        "role": "product_hero",
+        "duration_seconds": 6,
+        "use_image_reference": true,
+        "video_prompt": "Vertical 9:16 premium product-only hero shot, no person on camera. Bioluxe Lab NMN bottle centered on a stone countertop with soft morning sun streaks and elegant shadows from nearby leaves. Slow controlled macro arc around the bottle, then a slight push-in to the label. Place a single capsule nearby and a clear glass of water in soft blur in the background to suggest daily ritual without clutter. Visual cues should feel clinically clean yet luxurious: crisp highlights, high contrast edge definition, warm neutral palette, shallow depth of field, stable camera motion, no text overlays. Emphasize quality, purity, and trust through immaculate styling and realistic materials. Product-only shot. No people, faces, or body parts visible.",
+        "audio_prompt": "AUDIO: Calm, trustworthy expert narration, concise and clear. Narration: \"Bioluxe Lab NMN delivers 500 milligrams per capsule with 99\" Music: refined premium ambient bed with soft piano tail. SFX: subtle capsule set-down tick, faint airy whoosh on camera move. Ambient audio: clean studio silence with a barely perceptible room tone."
+      }
+    ]
+  }
+}

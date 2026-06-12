@@ -1,0 +1,62 @@
+{
+  "brand": {
+    "name": "Bioluxe Lab",
+    "website": "https://bioluxelab.com",
+    "voice_persona": "calm, trustworthy wellness expert"
+  },
+  "product": {
+    "name": "",
+    "category": "longevity / cellular health supplement",
+    "key_benefits": [],
+    "notes": "Leave name/benefits empty to let the model infer them from the blog content."
+  },
+  "ad": {
+    "platform": "tiktok_reels_shorts",
+    "aspect_ratio": "9:16",
+    "resolution": "480p",
+    "target_seconds": 30,
+    "min_clip_seconds": 5,
+    "max_clip_seconds": 8,
+    "style": "cinematic product b-roll, premium commercial, no talking face",
+    "call_to_action": "Shop now at bioluxelab.com"
+  },
+  "voiceover": {
+    "voice_id": "Ashley",
+    "tone": "calm, trustworthy expert",
+    "language": "en",
+    "speaking_rate": 0,
+    "temperature": 0,
+    "audio_format": "mp3",
+    "sample_rate": 48000,
+    "text_normalization": "on",
+    "words_per_second": 2.5,
+    "max_characters": 2000
+  },
+  "openai": {
+    "model": "gpt-5.4",
+    "use_vision_for_image_ranking": true,
+    "temperature": 0.8,
+    "max_output_tokens": 7000
+  },
+  "image_selection": {
+    "min_width": 500,
+    "min_height": 500,
+    "max_candidates": 12
+  },
+  "compliance": {
+    "policy": "wellness",
+    "rules": [
+      "Use lifestyle and wellness language only.",
+      "Do NOT make disease, cure, treatment, or medical claims.",
+      "Avoid claims that the product diagnoses, treats, cures, or prevents any disease.",
+      "Frame benefits as supporting general wellbeing (e.g. 'supports cellular health')."
+    ]
+  },
+  "quality": {
+    "min_master_prompt_words": 60,
+    "auto_expand_short_master_prompt": true
+  },
+  "output": {
+    "dir": "output"
+  }
+}

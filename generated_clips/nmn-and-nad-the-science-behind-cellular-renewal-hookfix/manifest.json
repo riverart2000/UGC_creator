@@ -1,0 +1,98 @@
+{
+  "model": "xai/grok-imagine-video",
+  "image_ref": "https://cdn.shopify.com/s/files/1/1037/0849/2121/files/1781020525306-generated-label-image-0.jpg?v=1781098894",
+  "image_mode": "upload",
+  "image_usage": "all",
+  "qc_enabled": true,
+  "strict_qc": false,
+  "uploaded_image_path": "/Users/joebains/UGC_creator/output/_assets/source_image.jpg",
+  "output_dir": "/Users/joebains/UGC_creator/generated_clips/nmn-and-nad-the-science-behind-cellular-renewal-hookfix",
+  "clips": [
+    {
+      "clip_index": 1,
+      "role": "hook",
+      "use_image_reference": false,
+      "file": "/Users/joebains/UGC_creator/generated_clips/nmn-and-nad-the-science-behind-cellular-renewal-hookfix/clip_01_hook.mp4",
+      "input": {
+        "prompt": "Vertical 9:16 cinematic UGC realism. Keep Sophie, a 44-year-old brunette woman with natural makeup and an understated cream lounge set, visible the entire clip. First 2 seconds are person-only framing: medium close-up in a softly lit modern kitchen at early morning, she leans on the counter with a tired but composed expression, rubbing her temple and exhaling. After that, the camera makes one slow handheld push-in as she reaches for water, glances toward the window, then pauses as if noticing she feels more drained than she used to. Premium natural light, warm neutral tones, shallow depth of field, authentic home details, subtle motion in curtains. No product visible yet. Focus on the emotional beat of quiet energy decline, not dramatized illness. Keep the same named on-camera persona continuity across person-led clips. Start with person-only framing for the first 1.8 to 2.0 seconds.\nAUDIO: Calm, trustworthy expert female narration, clear and measured: \"At a certain point, it is not dramatic... you just notice your energy and recovery are not quite the same.\" Very soft ambient piano with warm low synth pad. Natural kitchen ambience: faint refrigerator hum, glass set on counter, quiet morning room tone. No talking-to-camera delivery. Keep pacing reflective and premium.",
+        "duration": 9,
+        "aspect_ratio": "9:16",
+        "resolution": "480p"
+      },
+      "quality_check": {
+        "tool": "opencv",
+        "status": "ok",
+        "passed": true,
+        "issues": [],
+        "metrics": {
+          "file_size_bytes": 1488166,
+          "frame_count": 217,
+          "sampled_frames": 44,
+          "fps": 24.0,
+          "duration_seconds": 9.042,
+          "avg_laplacian_variance": 98.244,
+          "avg_frame_diff": 10.791,
+          "freeze_ratio": 0.0
+        }
+      }
+    },
+    {
+      "clip_index": 2,
+      "role": "solution",
+      "use_image_reference": true,
+      "file": "/Users/joebains/UGC_creator/generated_clips/nmn-and-nad-the-science-behind-cellular-renewal-hookfix/clip_02_solution.mp4",
+      "input": {
+        "prompt": "Vertical 9:16, same Sophie, same age and general appearance, same kitchen and wardrobe continuity with a slight progression: now more alert, sleeves casually pushed up. First 2 seconds remain person-only framing: medium shot as she stands upright at the counter in morning light, looking more focused. Then reveal the Bioluxe Lab NMN bottle naturally on the counter beside a glass of water. Use a single smooth handheld slide from Sophie’s face to her hands as she picks up the bottle, opens it, takes one capsule with water, then moves into a brief follow-through beat placing the bottle near a protein-rich breakfast. Finish with her stepping into a bright hallway with a lighter stride. Clean premium lighting, believable product handling, label readable but not forced, authentic wellness routine, no on-screen text. Keep the same named on-camera persona continuity across person-led clips. Start with person-only framing for the first 1.8 to 2.0 seconds.\nAUDIO: Calm expert narration synced to actions: \"Sophie added one 500 milligram NMN capsule to her morning routine to support NAD-plus levels and overall cellular health.\" Short pause, then: \"With consistent use, many people notice subtle support for energy, focus, and recovery.\" Soft uplifting piano continues, slightly brighter than clip one. SFX: bottle cap twist, capsule shake, water sip, plate set down, soft footsteps. Ambient morning home tone remains natural and clean.",
+        "duration": 10,
+        "image": "uploaded_file:/Users/joebains/UGC_creator/output/_assets/source_image.jpg",
+        "aspect_ratio": "9:16",
+        "resolution": "480p"
+      },
+      "quality_check": {
+        "tool": "opencv",
+        "status": "ok",
+        "passed": true,
+        "issues": [],
+        "metrics": {
+          "file_size_bytes": 3090037,
+          "frame_count": 241,
+          "sampled_frames": 41,
+          "fps": 24.0,
+          "duration_seconds": 10.042,
+          "avg_laplacian_variance": 165.032,
+          "avg_frame_diff": 22.568,
+          "freeze_ratio": 0.0
+        }
+      }
+    },
+    {
+      "clip_index": 3,
+      "role": "product_hero",
+      "use_image_reference": true,
+      "file": "/Users/joebains/UGC_creator/generated_clips/nmn-and-nad-the-science-behind-cellular-renewal-hookfix/clip_03_product-hero.mp4",
+      "input": {
+        "prompt": "Vertical 9:16 premium commercial product-only hero shot. No person on camera. The Bioluxe Lab NMN bottle stands on a clean stone countertop beside a clear glass of water, with soft morning sunlight creating elegant highlights and gentle shadows. One dominant camera move: slow controlled orbiting macro push around the bottle, revealing label detail and the refined packaging. Add tasteful supporting lifestyle elements in soft focus: a folded linen napkin, a bowl with eggs and avocado in the background, and subtle window light bloom. The bottle should feel premium, clinical-clean, and trustworthy without looking sterile. Crisp focus on the product, shallow depth of field, polished but realistic home-wellness setting. Product-only shot. No people, faces, or body parts visible.\nAUDIO: Calm trustworthy expert narration: \"Bioluxe Lab NMN delivers 500 milligrams of high-purity beta-nicotinamide mononucleotide, designed for a confident daily wellness ritual.\" Brief closing line: \"Shop now at bioluxelab.com.\" Background music: refined ambient piano with a gentle resolving swell. SFX: faint room tone, delicate glass clink, subtle cinematic whoosh matching the orbit move. No dialogue from any person.",
+        "duration": 6,
+        "image": "uploaded_file:/Users/joebains/UGC_creator/output/_assets/source_image.jpg",
+        "aspect_ratio": "9:16",
+        "resolution": "480p"
+      },
+      "quality_check": {
+        "tool": "opencv",
+        "status": "ok",
+        "passed": true,
+        "issues": [],
+        "metrics": {
+          "file_size_bytes": 1974939,
+          "frame_count": 145,
+          "sampled_frames": 49,
+          "fps": 24.0,
+          "duration_seconds": 6.042,
+          "avg_laplacian_variance": 593.546,
+          "avg_frame_diff": 16.008,
+          "freeze_ratio": 0.0
+        }
+      }
+    }
+  ]
+}

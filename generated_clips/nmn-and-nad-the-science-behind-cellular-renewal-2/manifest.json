@@ -1,0 +1,48 @@
+{
+  "model": "xai/grok-imagine-video",
+  "image_ref": "https://cdn.shopify.com/s/files/1/1037/0849/2121/files/1781020525306-generated-label-image-0.jpg?v=1781098894",
+  "image_mode": "upload",
+  "image_usage": "all",
+  "uploaded_image_path": "/Users/joebains/UGC_creator/output/_assets/source_image.jpg",
+  "output_dir": "generated_clips/nmn-and-nad-the-science-behind-cellular-renewal-2",
+  "clips": [
+    {
+      "clip_index": 1,
+      "role": "hook",
+      "use_image_reference": false,
+      "file": "generated_clips/nmn-and-nad-the-science-behind-cellular-renewal-2/clip_01_hook.mp4",
+      "input": {
+        "prompt": "Vertical 9:16 cinematic UGC realism. Early morning in a softly lit modern kitchen and hallway. A 44-year-old woman, Lauren, with shoulder-length brown hair, minimal makeup, neutral beige knit top and black leggings, is visible throughout. Start on a medium handheld shot as she pauses at the counter with a tired exhale, then slowly push in as she rubs her temple and glances toward her untouched walking shoes and laptop bag. Cut within the same moment to her stretching her shoulders beside the kitchen island, moving a little stiffly, then reaching for a glass of water. Natural window light, muted premium tones, realistic home ambience, no glam styling, no on-screen text. Keep performance subtle and believable: she is not sick, just feeling that quiet dip in energy and recovery that comes with a full life. Keep the same named on-camera persona continuity across person-led clips.\nAUDIO: Calm, trustworthy expert female narration, measured and reassuring: \"By midlife, your body’s NAD+ levels naturally decline, and that can show up as lower energy, slower recovery, and less everyday resilience.\" Very soft ambient piano with light modern wellness texture underneath. Natural home ambience: distant kettle click, soft fabric movement, quiet footsteps on wood floor, gentle glass set on counter. No hard sell, no dramatic sound design.",
+        "duration": 10,
+        "aspect_ratio": "9:16",
+        "resolution": "480p"
+      }
+    },
+    {
+      "clip_index": 2,
+      "role": "solution",
+      "use_image_reference": true,
+      "file": "generated_clips/nmn-and-nad-the-science-behind-cellular-renewal-2/clip_02_solution.mp4",
+      "input": {
+        "prompt": "Vertical 9:16, same Lauren, same home, same wardrobe for continuity, now in a brighter morning progression. Begin with a controlled close-up of a premium Bioluxe Lab NMN bottle on the kitchen counter beside a glass of water and a simple breakfast with eggs and avocado. Lauren’s hand enters frame, opens the bottle, and takes one capsule with water. Keep her visible immediately after in a medium shot as she smiles subtly, puts on a light zip jacket over the same outfit, and heads outside for a brisk neighborhood walk in clean morning sunlight. End on a natural medium tracking shot of her walking with more ease and upright posture. Lighting should feel fresh and hopeful, product integrated naturally, polished but still realistic UGC. No on-screen text. Keep the same named on-camera persona continuity across person-led clips.\nAUDIO: Calm expert narration with warm confidence: \"Lauren keeps it simple: one 500 milligram NMN capsule in the morning, then hydration, movement, and a routine she can stay consistent with. Bioluxe Lab uses 99.9% pure NMN to support NAD+ levels, cellular energy, and healthy aging.\" Soft uplifting piano and light pulse begin to build. SFX: bottle cap twist, capsule shake, sip of water, door open, faint morning birds, light walking footsteps. Optional soft on-camera line from Lauren, natural and quiet: \"This feels easy to stick with.\"",
+        "duration": 10,
+        "image": "uploaded_file:/Users/joebains/UGC_creator/output/_assets/source_image.jpg",
+        "aspect_ratio": "9:16",
+        "resolution": "480p"
+      }
+    },
+    {
+      "clip_index": 3,
+      "role": "product_hero",
+      "use_image_reference": true,
+      "file": "generated_clips/nmn-and-nad-the-science-behind-cellular-renewal-2/clip_03_product-hero.mp4",
+      "input": {
+        "prompt": "Vertical 9:16 premium product-only hero shot, no person on camera. Place the Bioluxe Lab NMN bottle on a clean stone countertop with soft morning light raking across the label, a glass of water and minimal wellness styling in the background, slightly out of focus. Use a slow precise slider move from three-quarter angle to near-front label emphasis, with shallow depth of field and crisp product identity. Then finish with a subtle top-light gleam across the bottle cap and label to communicate purity and confidence. Palette is clean, elevated, and clinical-luxury without looking sterile. No text overlays, no clutter, no extra props that distract from the bottle. Product-only shot. No people, faces, or body parts visible.\nAUDIO: Calm, trustworthy expert narration, concise: \"A smart addition to your wellness routine for lasting vitality. Bioluxe Lab NMN—quality you can feel confident in. Shop now at bioluxelab.com.\" Soft premium piano sustains with a gentle resolved note. SFX: subtle countertop placement resonance, faint room tone, delicate shimmer accent timed to the final product move.",
+        "duration": 6,
+        "image": "uploaded_file:/Users/joebains/UGC_creator/output/_assets/source_image.jpg",
+        "aspect_ratio": "9:16",
+        "resolution": "480p"
+      }
+    }
+  ]
+}
